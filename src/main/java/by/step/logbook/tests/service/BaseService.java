@@ -1,11 +1,12 @@
-package by.step.logbook.tests.page;
+package by.step.logbook.tests.service;
 
 import org.openqa.selenium.WebDriver;
 
-public class BasePage {
+public class BaseService {
 
     protected WebDriver driver;
-    public BasePage (WebDriver driver){
+
+    public BaseService (WebDriver driver){
         this.driver = driver;
     }
 }
