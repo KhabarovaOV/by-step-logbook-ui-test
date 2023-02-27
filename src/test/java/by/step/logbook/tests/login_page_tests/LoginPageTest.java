@@ -41,9 +41,6 @@ public class LoginPageTest extends BaseUITestsClass {
 
         //When
         loginService.getLoginPage().getLoginBlock().loginButton.click();
-
-        //Then
-        //Assertions.assertEquals(expectedErrormessage, actualErrorMessageText);
     }
 
     @Test
